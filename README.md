@@ -1,4 +1,4 @@
 foran-construction
 ==================
 
-Showcase of code for 
+Showcase of code for my project for Foran Construction Ltd
