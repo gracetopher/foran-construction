@@ -25,13 +25,13 @@
 	 	 <div class="logo"><a href="index.php"><img src="img/logo.jpg" alt="Foran Construction - Builders Richmond" width="183" height="93" /></a></div>
 	  		<div class="contact-details"><a href="contact.php">info@foranconstruction.co.uk<br /><span>020 3362 6861</span></a></div>
 			<div class="nav">
-			  <ul class="nav-link">
-				<li<?php if (isset($home)){ echo $home; } else { echo NULL; } // Set active tab class ?>><a href="index.php"><strong>Home</strong></a></li>
-				<li<?php if (isset($about)){ echo $about; } else { echo NULL; } // Set active tab class?>><a href="about.php"><strong>About us</strong></a></li>
-				<li<?php if (isset($residential)){ echo $residential; } else { echo NULL; } // Set active tab class?>><a href="residential.php"><strong>Residential</strong></a></li>
-				<li<?php if (isset($commercial)){ echo $commercial; } else { echo NULL; } // Set active tab class?>><a href="commercial.php"><strong>Commercial</strong></a></li>
-				<li<?php if (isset($civil)){ echo $civil; } else { echo NULL; } // Set active tab class?>><a href="civilengineering.php"><strong>Civil Engineering</strong></a></li>
-				<li<?php if (isset($contact)){ echo $contact; } else { echo NULL; } // Set active tab class?>><a href="contact.php" class="clear-border"><strong>Contact us</strong></a></li>
+			  <ul class="nav-link"> <!-- Set active tab class inside each list tag -->
+				<li<?php if (isset($home)){ echo $home; } else { echo NULL; } ?>><a href="index.php"><strong>Home</strong></a></li> 
+				<li<?php if (isset($about)){ echo $about; } else { echo NULL; } ?>><a href="about.php"><strong>About us</strong></a></li>
+				<li<?php if (isset($residential)){ echo $residential; } else { echo NULL; } ?>><a href="residential.php"><strong>Residential</strong></a></li>
+				<li<?php if (isset($commercial)){ echo $commercial; } else { echo NULL; } ?>><a href="commercial.php"><strong>Commercial</strong></a></li>
+				<li<?php if (isset($civil)){ echo $civil; } else { echo NULL; } ?>><a href="civilengineering.php"><strong>Civil Engineering</strong></a></li>
+				<li<?php if (isset($contact)){ echo $contact; } else { echo NULL; } ?>><a href="contact.php" class="clear-border"><strong>Contact us</strong></a></li>
 			  </ul>
 		   </div>
 	  </div>
