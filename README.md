@@ -2,7 +2,7 @@ foran-construction
 ==================
 
 This project demonstrates how I have used PHP to template the website, while using dynamic Meta tags for 
-Search Engine Optimisation.
+Search Engine Optimisation. Using a PHP template allowed me to make changes across the website in one place.
 
 [See files for comments]
 
